@@ -416,6 +416,26 @@
 			</div>
 		</div>
 	</section>
+<section>
+	<div class="gallery">
+        <img src="E:\PankajUXPortfolio\images\person_1.jpg" alt="Image 1" onclick="openSlider(0)">
+        <img src="E:\PankajUXPortfolio\images\person_2.jpg" alt="Image 2" onclick="openSlider(1)">
+        <img src="E:\PankajUXPortfolio\images\person_3.jpg" alt="Image 3" onclick="openSlider(2)">
+    </div>
+
+    <div id="imageSlider" class="slider">
+        <span class="close" onclick="closeSlider()">&times;</span>
+        <div class="slider-content">
+            <img class="slider-image" src="E:\PankajUXPortfolio\images\person_1.jpg" alt="Image 1">
+            <img class="slider-image" src="E:\PankajUXPortfolio\images\person_2.jpg" alt="Image 2">
+            <img class="slider-image" src="E:\PankajUXPortfolio\images\person_3.jpg" alt="Image 3">
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</section>
 
 	<section id="projects-section" style="background-color: #3247ff; padding: 10%">
 		<div class="container">
